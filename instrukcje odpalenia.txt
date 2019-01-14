@@ -1,0 +1,16 @@
+MYSQL:
+1) Œci¹gn¹æ https://dev.mysql.com/downloads/file/?id=480558
+2) Wypakowaæ w C:/
+3) Otworzyæ cmd i wejœæ do C:/mysql/bin
+4) Odpaliæ `mysqld --initialize-insecure`
+5) Odpaliæ `mysqld --console`
+6) Otworzyæ nowe cmd i w C:/mysql/bin
+6) Odpaliæ `mysql -u root --skip-password`
+7) Odpaliæ `alter user 'root'@'localhost' identified by 'mypass';
+8) Odpaliæ `quit`
+9) Odpaliæ `mysql -u root -p` potem `mypass`
+10) Zaimportowaæ plik `sqldump.sql` jako now¹ baze przez program do zarz¹dzania bazami lub jego zawartoœæ skopiwowaæ i odpaliæ jako SQL query
+
+JAVA:
+1) W Netbeans upewniæ siê ¿e `mysql-connector-java-8.0.13.jar` jest wrzucony do projektu jako Library
+2) Odpaliæ projekt przez komende Run w Netbeans
